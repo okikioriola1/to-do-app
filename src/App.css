@@ -151,3 +151,18 @@ h1 {
 .footer-section h1{
   font-size: 21px;
 }
+
+@media(max-width: 500px){
+  .todo-app{
+    width: 300px;
+  }
+  .todo-input{
+    width: 180px;
+  }
+  .footer-section h1{
+    font-size: 16px;
+  }
+  .footer-section{
+    padding-top: 70%;
+  }
+}
