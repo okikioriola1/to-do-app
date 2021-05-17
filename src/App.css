@@ -16,7 +16,7 @@ body {
 .todo-app {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   width: 520px;
   min-height: 600px;
   background: #161a2b;
@@ -117,8 +117,8 @@ h1 {
 .todo-row:nth-child(4n + 2) {
   background: linear-gradient(
     90deg,
-    rgb(89, 255, 12) 0%,
-    rgb(0, 250, 104) 100%
+    rgb(57, 168, 5) 0%,
+    rgb(9, 107, 50) 100%
   );
 }
 
@@ -149,5 +149,5 @@ h1 {
   padding-top: 56%;
 }
 .footer-section h1{
-  font-size: 24px;
+  font-size: 21px;
 }
